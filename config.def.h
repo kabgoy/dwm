@@ -115,8 +115,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_comma,  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period, tagmon,         {.i = +1 } },
 
-	{ MODKEY|Mod4Mask,              XK_z,      incrgaps,       {.i = +3 } },
-	{ MODKEY|Mod4Mask|ShiftMask,    XK_x,      incrgaps,       {.i = -3 } },
+	{ MODKEY,                       XK_z,      incrgaps,       {.i = +3 } },
+	{ MODKEY|ShiftMask,             XK_z,      incrgaps,       {.i = -3 } },
 	{ MODKEY,                       XK_g,      togglegaps,     {0} },
 	{ MODKEY|ShiftMask,             XK_g,      defaultgaps,    {0} },
 	/*
